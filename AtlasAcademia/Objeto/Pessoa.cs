@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AtlasAcademia.Objeto
 {
-    public abstract class Pessoa
+    public abstract class Pessoa : ICrud
     {
 		private int codigo;
 		private string nome;
@@ -17,6 +17,16 @@ namespace AtlasAcademia.Objeto
 		public string Nascimento { get => nascimento; set => nascimento = value; }
 		public string Cpf { get => cpf; set => cpf = value; }
 
-		protected virtual void GetDados() { }
-	}
+        
+        public abstract void Cadastrar();
+        
+        public abstract List<object> Buscar();
+
+        public abstract void Alterar();
+
+        public abstract void Deletar();
+       
+    }
+
+	
 }

@@ -90,6 +90,7 @@
     <Compile Include="AtalasPage.Master.designer.cs">
       <DependentUpon>AtalasPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\ICrud.cs" />
     <Compile Include="Objeto\Aluno.cs" />
     <Compile Include="Objeto\Pessoa.cs" />
     <Compile Include="PaginaDefault.aspx.cs">
@@ -100,6 +101,7 @@
       <DependentUpon>PaginaDefault.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structs\Nomes.cs" />
     <Compile Include="View\Alunos.aspx.cs">
       <DependentUpon>Alunos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

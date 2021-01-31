@@ -305,7 +305,7 @@ table tr {
 /* --- final pagina de cadastro ---*/
 
 .conteudo-maior{
-    
+	margin-top:-17px;
     width:74%;
     height:550px;
     float:right;

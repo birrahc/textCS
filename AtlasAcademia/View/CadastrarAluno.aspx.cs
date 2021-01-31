@@ -22,7 +22,7 @@ namespace AtlasAcademia.View
             Aluno.Nascimento = txbNascimento.Text;
             Aluno.Telefone =txbTelefone.Text;
             Aluno.Email = txbEmail.Text;
-            Aluno.CadastrarAluno();
+            Aluno.Cadastrar();
             
         }
 
